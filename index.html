@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- llamar libreria alert --> 
+    <title>Encriptador-Yorlin</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="cuadroTexto">
+            <div class="cajaTexto">
+                <textarea class="input-texto" name="areaTexto" id="areaTexto" cols="40" rows="10" placeholder="Ingrese el texto a ser codificado..."></textarea>
+            </div>
+            <h2>☑ Solo con letras minúsculas y sin acentos.</h2>
+            <div class="lugarBotones">
+                <button onclick="btnEncriptar()">Encriptar</button>
+                <button onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="cuadroCopiar">
+            <div class="cajaTexto">
+                <textarea class="textArea2" name="areaTexto" id="areaTexto" cols="20" rows="8" placeholder="Hola, esperando..."></textarea>
+            </div>
+            <div class="lugarBotones">
+                <button class="botonCopiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> Copyright © 2022 │ by Yorlin Pachajoa</p>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>

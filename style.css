@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    /* border: 1px solid #20736A; */
+}
+
+body{
+    background: #B6F2EC;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Cuadro izquierdo */
+.cuadroTexto{
+    margin: 50px 0px;
+    width: 700px;
+    height: 550px;
+    border-radius: 20px;
+    /* Efecto cristal */
+    backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 1); border-radius: 35px; box-shadow: 35px 35px 68px 0px rgba(155, 242, 234, 0.5), inset -10px -10px 16px 0px rgba(155, 242, 234, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    display: grid;
+}
+.cajaTexto{
+    margin: 60px auto;
+}
+
+textarea{
+    padding: 20px;
+    resize: none;
+    border: none;
+    transition: 0.3s;
+}
+   
+   textarea:focus {
+    outline-color: #e8e8e8;
+    background: #ffffff;
+    transition: 0.3s;
+   }
+
+   .lugarBotones{
+    width: 100%;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+   h2{
+    color: #7D9D9C;
+    margin-left: 140px;
+    font-weight: lighter;
+   }
+
+   button{
+    padding: 12px 24px;
+    border: 3px solid #e8e8e8;
+    border-radius: 20px;
+    background: none;
+    font-weight: bold;
+    color: #20736A;
+   }
+
+   button:hover{
+    transform: scale(1.2);
+    background: #63BFB6;
+    color: #ffffff;
+   }
+
+/* Cuadro Derecho */
+
+   .textArea2{
+    padding: 20px;
+    background: #B2F3F3;
+    resize: none;
+    border: none;
+    transition: 0.3s;
+   }   
+
+   .textArea2:focus {
+    outline-color: #e8e8e8;
+    background: #B6F2EC;
+    transition: 0.3s;
+   }
+
+.cuadroCopiar{
+    display: grid;
+    margin: 50px 0px;
+    width: 350px;
+    height: 550px;
+    background: url(img/imgCopiar.png);
+    background-size: cover;
+    background-position-y: -120px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 1); border-radius: 35px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -10px -10px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+.botonCopiar{
+    padding: 12px 24px;
+    border: 3px solid #e8e8e8;
+    border-radius: 20px;
+    background: #ffffff;
+    font-weight: bold;
+    color: #20736A;
+}
+
+.botonCopiar:hover{
+    transform: scale(1.2);
+    background: #63BFB6;
+    color: #ffffff;
+   }
+
+   footer{
+    background: #20736A;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 13px;
+    padding-top: 10px;
+   }
